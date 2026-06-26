@@ -1,6 +1,7 @@
 import json
 import sys
 from pathlib import Path
+from app.config import PROJECT_ROOT
 
 def open_json(file_name):
     path = relative_path(file_name)
@@ -17,7 +18,7 @@ def relative_path(file_name):
         base = Path(sys._MEIPASS)
     else:
         # Running as .py
-        base = Path(__file__).resolve().parent.parent
+        base = PROJECT_ROOT
 
     return base / file_name
 
