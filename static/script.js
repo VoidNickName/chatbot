@@ -56,7 +56,7 @@ askButton.addEventListener("click", function() {
     const chatAnswer = document.getElementById("chatbot-answer");
     const chatConfidence = document.getElementById("chatbot-confidence");
 
-    fetch("http://127.0.0.1:8000/question", {
+    fetch("/question", {
         method: "POST",
         body: JSON.stringify({question: userQuestion}),
         headers: {
@@ -86,7 +86,7 @@ askButton.addEventListener("click", function() {
 function sendFile(formData) {
     const fileName = document.getElementById("dataset-name");
 
-    fetch("http://127.0.0.1:8000/upload-csv", {
+    fetch("/upload-csv", {
         method: "POST",
         body: formData
     })
@@ -159,7 +159,7 @@ function buildFeatureUI(columns) {
 function sendModelParams(payload) {
     const evaluationResults = document.getElementById("evaluation-results");
 
-    fetch("http://127.0.0.1:8000/train-test", {
+    fetch("/train-test", {
         method: "POST",
         body: JSON.stringify(payload),
         headers: {
@@ -192,7 +192,7 @@ function sendModelParams(payload) {
 function sendKnowledgebase(knowledgebase) {
     const knowledgebaseName = document.getElementById("knowledgebase-name");
 
-    fetch("http://127.0.0.1:8000/upload-knowledgebase", {
+    fetch("/upload-knowledgebase", {
         method: "POST",
         body: knowledgebase
     })
