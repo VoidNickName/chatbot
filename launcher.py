@@ -4,6 +4,7 @@ import time
 import webview
 import threading
 from app.main import app
+from app.config import WEBVIEW
 
 window = None
 
@@ -59,4 +60,7 @@ def launch_desktop():
 
 
 if __name__ == "__main__":
-    launch_desktop()
+    if WEBVIEW:
+        launch_desktop()
+    else:
+        run_server()
