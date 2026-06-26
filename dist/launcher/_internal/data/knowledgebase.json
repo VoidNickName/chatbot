@@ -1,0 +1,321 @@
+{
+    "intents": [
+        {
+            "patterns": [
+                "what is ai",
+                "define ai",
+                "explain artificial intelligence",
+                "what does ai mean",
+                "tell me about ai",
+                "can you explain ai",
+                "ai meaning",
+                "what is artificial intelligence",
+                "how would you describe ai"
+            ],
+            "response": "Artificial Intelligence (AI) is a field of computer science focused on creating systems that can perform tasks requiring human intelligence such as learning, reasoning, and problem-solving."
+        },
+        {
+            "patterns": [
+                "types of ai",
+                "what are the types of ai",
+                "categories of ai",
+                "ai types",
+                "different kinds of ai",
+                "how many types of ai are there",
+                "ai classification"
+            ],
+            "response": "AI has three main types: Narrow AI (task-specific), General AI (human-level intelligence), and Super AI (hypothetical advanced intelligence)."
+        },
+        {
+            "patterns": [
+                "what is machine learning",
+                "define machine learning",
+                "how does machine learning work",
+                "ml meaning",
+                "what is ml",
+                "machine learning explanation",
+                "how does ml learn",
+                "ml vs ai"
+            ],
+            "response": "Machine learning is a subset of AI that enables systems to learn patterns from data and improve performance without being explicitly programmed."
+        },
+        {
+            "patterns": [
+                "what is deep learning",
+                "define deep learning",
+                "how does deep learning work",
+                "deep learning meaning",
+                "what is dl",
+                "deep learning vs machine learning",
+                "what are neural networks",
+                "how do neural networks work"
+            ],
+            "response": "Deep learning is a subset of machine learning that uses multi-layer neural networks to learn complex patterns in data such as images, audio, and text."
+        },
+        {
+            "patterns": [
+                "what is nlp",
+                "natural language processing",
+                "nlp meaning",
+                "what does nlp stand for",
+                "how does nlp work",
+                "nlp in ai",
+                "text processing ai",
+                "language models"
+            ],
+            "response": "Natural Language Processing (NLP) is a branch of AI that enables computers to understand, interpret, and generate human language."
+        },
+        {
+            "patterns": [
+                "what is a neural network",
+                "how do neural networks work",
+                "neural network explanation",
+                "what are neurons in ai",
+                "artificial neural networks",
+                "ann in ai"
+            ],
+            "response": "A neural network is a computational model inspired by the human brain, consisting of layers of nodes (neurons) that process data and learn patterns."
+        },
+        {
+            "patterns": [
+                "what is training data",
+                "why is data important in ai",
+                "how do ai models learn",
+                "what data is used for ai",
+                "training dataset meaning"
+            ],
+            "response": "Training data is the dataset used to teach an AI model patterns and relationships so it can make predictions or decisions on new data."
+        },
+        {
+            "patterns": [
+                "what is overfitting",
+                "ai overfitting meaning",
+                "why do models overfit",
+                "what causes overfitting in machine learning",
+                "overfitting explanation"
+            ],
+            "response": "Overfitting happens when a machine learning model learns training data too well, including noise, making it perform poorly on new unseen data."
+        },
+        {
+            "patterns": [
+                "what is underfitting",
+                "underfitting in ml",
+                "why does underfitting happen",
+                "model is too simple",
+                "underfitting explanation"
+            ],
+            "response": "Underfitting occurs when a model is too simple to capture patterns in data, leading to poor performance on both training and test data."
+        },
+        {
+            "patterns": [
+                "what is reinforcement learning",
+                "how does reinforcement learning work",
+                "rl in ai",
+                "what is reward based learning",
+                "reinforcement learning explanation"
+            ],
+            "response": "Reinforcement learning is a type of machine learning where an agent learns by interacting with an environment and receiving rewards or penalties."
+        },
+        {
+            "patterns": [
+                "what is generative ai",
+                "how does generative ai work",
+                "ai that creates content",
+                "what are ai generators",
+                "chatgpt type ai"
+            ],
+            "response": "Generative AI refers to models that can create new content such as text, images, audio, or code based on learned patterns."
+        },
+        {
+            "patterns": [
+                "what is a large language model",
+                "llm meaning",
+                "how do llms work",
+                "what is chatgpt",
+                "language model explanation"
+            ],
+            "response": "Large Language Models (LLMs) are AI systems trained on massive text datasets to understand and generate human-like language."
+        },
+        {
+            "patterns": [
+                "what is ai ethics",
+                "ethical issues in ai",
+                "is ai safe",
+                "bias in ai",
+                "fairness in ai systems"
+            ],
+            "response": "AI ethics focuses on ensuring AI systems are fair, transparent, accountable, and do not cause harm through bias or misuse."
+        },
+        {
+            "patterns": [
+                "what is ai bias",
+                "why is ai biased",
+                "bias in machine learning",
+                "how does bias happen in ai",
+                "fairness in algorithms"
+            ],
+            "response": "AI bias occurs when models produce unfair or skewed outcomes due to biased training data or flawed design."
+        },
+        {
+            "patterns": [
+                "what is model accuracy",
+                "how do you measure ai performance",
+                "accuracy in machine learning",
+                "what is precision and recall",
+                "evaluation metrics in ai"
+            ],
+            "response": "Model accuracy measures how often an AI system makes correct predictions. Other metrics include precision, recall, and F1-score."
+        },
+        {
+            "patterns": [
+                "how are ai models trained",
+                "steps in machine learning",
+                "training a model process",
+                "how does ai get trained",
+                "ai learning pipeline"
+            ],
+            "response": "AI models are trained by collecting data, preprocessing it, selecting a model, training it on data, and evaluating its performance."
+        },
+        {
+            "patterns": [
+                "hello",
+                "hi",
+                "hey",
+                "good morning",
+                "good evening",
+                "yo",
+                "is anyone there",
+                "hello there",
+                "hiya",
+                "hey there"
+            ],
+            "response": "Hello! How can I help you today?"
+        },
+        {
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you",
+                "see ya",
+                "talk to you later",
+                "exit",
+                "quit",
+                "i'm done",
+                "catch you later"
+            ],
+            "response": "Goodbye! Have a great day."
+        },
+        {
+            "patterns": [
+                "thanks",
+                "thank you",
+                "thx",
+                "appreciate it",
+                "thanks a lot",
+                "thank you so much",
+                "cheers"
+            ],
+            "response": "You're welcome! Happy to help."
+        },
+        {
+            "patterns": [
+                "how are you",
+                "how are you doing",
+                "how's it going",
+                "how do you feel",
+                "are you okay",
+                "what's up"
+            ],
+            "response": "I'm doing well! I'm here and ready to help you."
+        },
+        {
+            "patterns": [
+                "who are you",
+                "what are you",
+                "are you a bot",
+                "tell me about yourself",
+                "what is this",
+                "what can you do",
+                "what are you for"
+            ],
+            "response": "I am a chatbot designed to answer questions about AI and help with general conversations."
+        },
+        {
+            "patterns": [
+                "help",
+                "can you help me",
+                "what can i ask you",
+                "how do i use this",
+                "support",
+                "i need help",
+                "what should i do here"
+            ],
+            "response": "You can ask me about AI topics like machine learning, deep learning, NLP, or just chat with me normally."
+        },
+        {
+            "patterns": [
+                "i am good",
+                "i'm fine",
+                "feeling great",
+                "doing well",
+                "i am happy",
+                "all good"
+            ],
+            "response": "Nice to hear that!"
+        },
+        {
+            "patterns": [
+                "i am sad",
+                "not feeling good",
+                "i'm upset",
+                "bad day",
+                "feeling down",
+                "i feel terrible"
+            ],
+            "response": "I'm sorry you're feeling that way. Want to talk about it?"
+        },
+        {
+            "patterns": [
+                "tell me a joke",
+                "make me laugh",
+                "say something funny",
+                "joke please",
+                "do you know any jokes"
+            ],
+            "response": "Why did the computer get cold? Because it left its Windows open!"
+        },
+        {
+            "patterns": [
+                "just chatting",
+                "nothing much",
+                "i am bored",
+                "talk to me",
+                "say something",
+                "let's chat",
+                "random talk"
+            ],
+            "response": "Sure! We can chat. What's on your mind?"
+        },
+        {
+            "patterns": [
+                "i don't understand",
+                "can you repeat that",
+                "what do you mean",
+                "explain again",
+                "confused",
+                "huh?"
+            ],
+            "response": "No problem \u2014 tell me what part is confusing and I'll explain it differently."
+        },
+        {
+            "patterns": [
+                "motivate me",
+                "i feel lazy",
+                "give me motivation",
+                "i can't do it",
+                "encourage me"
+            ],
+            "response": "Keep going \u2014 progress is built one step at a time. You've got this."
+        }
+    ]
+}

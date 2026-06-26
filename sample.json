@@ -1,0 +1,127 @@
+{
+    "intents": [
+        {
+        "patterns": [
+            "what is supervised learning",
+            "supervised learning meaning",
+            "how does supervised learning work",
+            "ml supervised vs unsupervised"
+        ],
+        "response": "Supervised learning is a type of machine learning where a model is trained on labeled data, meaning the correct answers are already provided."
+        },
+        {
+        "patterns": [
+            "what is unsupervised learning",
+            "unsupervised learning meaning",
+            "how does unsupervised learning work",
+            "clustering in ai"
+        ],
+        "response": "Unsupervised learning is a type of machine learning where the model finds patterns in data without labeled outputs."
+        },
+        {
+        "patterns": [
+            "what is reinforcement learning used for",
+            "applications of reinforcement learning",
+            "where is rl used"
+        ],
+        "response": "Reinforcement learning is used in robotics, game playing, recommendation systems, and decision-making systems."
+        },
+        {
+        "patterns": [
+            "what is a transformer model",
+            "transformer in ai",
+            "how do transformers work",
+            "attention mechanism explanation"
+        ],
+        "response": "A transformer is a deep learning model architecture that uses attention mechanisms to process sequences efficiently, widely used in language models."
+        },
+        {
+        "patterns": [
+            "what is tokenization",
+            "tokenization in nlp",
+            "how does tokenization work"
+        ],
+        "response": "Tokenization is the process of breaking text into smaller units like words or subwords so that a model can process them."
+        },
+        {
+        "patterns": [
+            "what is gradient descent",
+            "how does gradient descent work",
+            "optimization in machine learning"
+        ],
+        "response": "Gradient descent is an optimization algorithm used to minimize error by adjusting model parameters step by step."
+        },
+        {
+        "patterns": [
+            "what is a dataset split",
+            "train test split meaning",
+            "why split data into training and testing"
+        ],
+        "response": "A dataset split divides data into training and testing sets so models can be evaluated on unseen data."
+        },
+        {
+        "patterns": [
+            "what are hyperparameters",
+            "hyperparameter tuning meaning",
+            "what is tuning in ml"
+        ],
+        "response": "Hyperparameters are settings chosen before training a model, like learning rate or number of layers, that affect performance."
+        },
+        {
+        "patterns": [
+            "what is prompt engineering",
+            "prompt engineering meaning",
+            "how to write good prompts"
+        ],
+        "response": "Prompt engineering is the practice of designing effective inputs to guide AI models to produce better outputs."
+        },
+        {
+        "patterns": [
+            "what is ai hallucination",
+            "why do ai models hallucinate",
+            "hallucination in llm meaning"
+        ],
+        "response": "AI hallucination happens when a model generates incorrect or made-up information that sounds plausible."
+        },
+        {
+        "patterns": [
+            "what is fine tuning",
+            "fine tuning in machine learning",
+            "how do you fine tune a model"
+        ],
+        "response": "Fine-tuning is the process of taking a pre-trained model and training it further on specific data to improve performance for a task."
+        },
+        {
+        "patterns": [
+            "what is zero shot learning",
+            "zero shot vs few shot learning",
+            "how does zero shot learning work"
+        ],
+        "response": "Zero-shot learning allows a model to perform tasks without being explicitly trained on examples for that specific task."
+        },
+        {
+        "patterns": [
+            "what is few shot learning",
+            "few shot learning meaning",
+            "how does few shot prompting work"
+        ],
+        "response": "Few-shot learning means the model is given a small number of examples to learn how to perform a task."
+        },
+        {
+        "patterns": [
+            "what is ai used for",
+            "applications of ai",
+            "where is artificial intelligence used"
+        ],
+        "response": "AI is used in healthcare, finance, transportation, entertainment, customer service, and many other fields."
+        },
+        {
+        "patterns": [
+            "what is data preprocessing",
+            "why preprocess data",
+            "data cleaning in machine learning"
+        ],
+        "response": "Data preprocessing involves cleaning and transforming raw data so it can be effectively used for training machine learning models."
+        }
+    ]
+}

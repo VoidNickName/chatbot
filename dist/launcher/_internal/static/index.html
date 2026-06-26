@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Chatbot</title>
+</head>
+<body>
+    <div class="container" id="left">
+        <h1>Train & evaluate machine learning models</h1>
+        <section id="dataset-upload">
+            <h2>Upload Dataset</h2>
+            <p>Upload your dataset (CSV format) to train and evaluate machine learning models.</p>
+            <label for="dataset-file" id="dataset-label">Upload dataset</label>
+            <input type="file" id="dataset-file" accept=".csv">
+            <p id="dataset-name">No dataset has been uploaded</p>
+        </section>
+        <h2>Model Training Options</h2>
+        <p>Configure the options for training and evaluating your machine learning model.</p>
+        <div class="options">
+            <section>
+                <h2>Model Selection</h2>
+                <p>Select the machine learning model you want to train and evaluate.</p><br>
+                <select id="model-select">
+                    <option value="logistic_regression">Logistic Regression</option>
+                    <option value="decision_tree">Decision Tree</option>
+                    <option value="random_forest">Random Forest</option>
+                </select>
+            </section>
+            <section>
+                <h2>Dataset split</h2>
+                <p>Split your dataset into training and testing sets.</p><br>
+                <label for="train-size">Train size:</label>
+                <input type="number" id="train-size" min="0" max="100" value="80"><br><br>
+                <label for="test-size">Test size:</label>
+                <input type="number" id="test-size" min="0" max="100" value="20">
+            </section>
+            <section>
+                <h2>Dataset features</h2>
+                <p>Identify the features and target variable in your dataset.</p>
+                <div id="dataset-info">
+                    <br><h3>Features:</h3>
+                    <div id="feature-container"></div>
+                    <br><h3>Target variable:</h3>
+                    <div id="target-container"></div>
+                </div>
+            </section>
+        </div>
+        <section id="train-evaluate">
+            <h2>Train & Evaluate</h2>
+            <p>Click the button below to train and evaluate the selected machine learning model.</p>
+            <button id="train-evaluate-button">Train & Evaluate</button>
+        </section>
+        <section>
+            <h2>Evaluation Results</h2>
+            <div id="evaluation-results">
+                <!-- Evaluation results will be displayed here -->
+            </div>
+        </section>
+    </div>
+    </div>
+    <div class="container" id="right">
+        <div id="knowledgebase-upload">
+            <h2>Upload Knowledgebase</h2>
+            <p>Upload your knowledgebase (JSON format).</p>
+            <label for="knowledgebase-file" id="knowledgebase-label">Upload knowledgebase</label>
+            <input type="file" id="knowledgebase-file" accept=".json">
+            <p id="knowledgebase-name">No knowledgebase has been uploaded</p>
+        </div>
+        <h1>Ask questions</h1>
+        <div id="question-section">
+            <h2>Enter your question</h2>
+            <textarea id="question-textarea" placeholder="Type your question here..."></textarea>
+        </div>
+        <button id="ask-button">Ask</button>
+        <div id="chatbot-answer">
+            <!-- Chatbot answers will be displayed here -->
+        </div>
+        <div id="chatbot-confidence">
+            <!-- Chatbot confidence will be displayed here -->
+        </div>
+    </div>
+</body>
+</html>

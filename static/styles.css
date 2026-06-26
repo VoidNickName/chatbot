@@ -1,0 +1,139 @@
+:root {
+    --background-color: #121212;
+    --primary-color: #ffffff;
+    --accent-color: #3a54ff;
+    --accent-color-light: #3a54ff80;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+div.container {
+    border: 2px solid var(--primary-color);
+    border-radius: 15px;
+    text-align: center;
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+}
+
+div.container#left {
+    width: calc(70vw - 50px);
+}
+
+div.container#right {
+    width: calc(30vw - 50px);
+}
+
+h1 {
+    margin-top: 20px;
+    color: var(--primary-color);
+}
+
+button, #dataset-label, #knowledgebase-label {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, #dataset-label:hover, #knowledgebase-label:hover {
+    background-color: var(--accent-color-light);
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#dataset-label, #knowledgebase-label {
+    display: inline-block;
+}
+
+#knowledgebase-upload {
+    margin-top: 20px;
+}
+
+section {
+    margin: 20px;
+}
+
+div.options {
+    display: none;
+    justify-content: space-around;
+}
+
+div.options section {
+    background-color: var(--accent-color);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    width: 30%;
+}
+
+div #evaluation-results {
+    background-color: var(--accent-color-light);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+div #question-section {
+    background-color: var(--accent-color);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+div #question-section textarea {
+    width: calc(100% - 20px);
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    min-height: 100px;
+}
+
+div #chatbot-answer {
+    margin: 20px;
+    padding: 20px;
+    background-color: var(--accent-color-light);
+    border-radius: 15px;
+    min-height: 100px;
+}
+
+div #train-evaluate {
+    display: none;
+}
+
+#feature-container, #target-container {
+    text-align: left;
+}
+
+#dataset-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+#dataset-name {
+    margin-top: 10px;
+}
