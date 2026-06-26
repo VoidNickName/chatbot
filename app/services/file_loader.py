@@ -1,5 +1,4 @@
 import json
-import os
 import sys
 from pathlib import Path
 
@@ -15,12 +14,12 @@ def load_json(contents):
 def relative_path(file_name):
     if getattr(sys, "frozen", False):
         # Running as .exe
-        folder = sys._MEIPASS
+        base = Path(sys._MEIPASS)
     else:
         # Running as .py
-        folder = os.path.dirname(__file__)
+        base = Path(__file__).resolve().parent.parent
 
-    return os.path.join(folder, file_name)
+    return base / file_name
 
 def save_json(dir, file_name, data):
     path = Path(dir) / file_name
